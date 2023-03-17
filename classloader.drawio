@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T10:18:13.210Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="uYgqkxE45RZoqwEAqu5b" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-17T10:38:21.049Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="bNZi3I6vNYnb5-Xf9SQY" version="20.8.21" type="github">
   <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
     <mxGraphModel dx="1386" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -49,29 +49,86 @@
         <mxCell id="3qnC3IV7WDDyGed35CzW-15" value="加载jar 并操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="830" y="705" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="3qnC3IV7WDDyGed35CzW-17" target="3qnC3IV7WDDyGed35CzW-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="3qnC3IV7WDDyGed35CzW-17" target="3qnC3IV7WDDyGed35CzW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3qnC3IV7WDDyGed35CzW-17" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Tomcat&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="260" y="930" width="80" height="30" as="geometry" />
+          <mxGeometry x="280" y="955" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3qnC3IV7WDDyGed35CzW-25" value="双亲委派被打破" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="480" y="870" width="140" height="30" as="geometry" />
+          <mxGeometry x="490" y="810" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3qnC3IV7WDDyGed35CzW-26" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=16;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="860" as="sourcePoint" />
-            <mxPoint x="525" y="860" as="targetPoint" />
+            <mxPoint x="522.5" y="840" as="sourcePoint" />
+            <mxPoint x="597.5" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3qnC3IV7WDDyGed35CzW-20" value="加载" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="575" y="920" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="3qnC3IV7WDDyGed35CzW-35" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="680" y="885" width="200" height="70" as="geometry" />
+          <mxGeometry x="460" y="885" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3qnC3IV7WDDyGed35CzW-16" value="WebAppClassLoader" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;" vertex="1" parent="3qnC3IV7WDDyGed35CzW-35">
           <mxGeometry width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3qnC3IV7WDDyGed35CzW-18" value="webapp目录1" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="3qnC3IV7WDDyGed35CzW-35">
           <mxGeometry x="35" y="30" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="460" y="980" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-37" value="WebAppClassLoader" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;" vertex="1" parent="3qnC3IV7WDDyGed35CzW-36">
+          <mxGeometry width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-38" value="webapp目录2" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="3qnC3IV7WDDyGed35CzW-36">
+          <mxGeometry x="35" y="30" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="3qnC3IV7WDDyGed35CzW-16" target="3qnC3IV7WDDyGed35CzW-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-43" value="&lt;strong style=&quot;margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Tomcat破坏双亲委派原则，提供隔离的机制，为每个web容器单独提供一个WebAppClassLoader加载器&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1060" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-44" value="servlet-api-1.0.0.jar" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="700" y="905" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="3qnC3IV7WDDyGed35CzW-16" target="3qnC3IV7WDDyGed35CzW-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-46" value="servlet-api-2.0.0.jar" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1000" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="3qnC3IV7WDDyGed35CzW-37" target="3qnC3IV7WDDyGed35CzW-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="3qnC3IV7WDDyGed35CzW-48" target="3qnC3IV7WDDyGed35CzW-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-48" value="URLClassLoader" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1020" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="3qnC3IV7WDDyGed35CzW-50" target="3qnC3IV7WDDyGed35CzW-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-50" value="http-hook.jar" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1030" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="3qnC3IV7WDDyGed35CzW-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="948" />
+              <mxPoint x="980" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-52" value="需要 servlet-api.jar" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="935" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="3qnC3IV7WDDyGed35CzW-56" value="&lt;b&gt;如何关联，hook.jar才能搜索到容器中的servlet-api.jar&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="845" y="875" width="410" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
